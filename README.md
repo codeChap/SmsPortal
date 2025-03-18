@@ -8,6 +8,12 @@ Install via Composer:
 composer require codechap/sms-portal:"dev-master"
 ```
 
+You might want to install the `giggsey/libphonenumber-for-php` package for phone number formatting and validation:
+
+```bash
+composer require giggsey/libphonenumber-for-php:"^8.13"
+```
+
 ## Usage
 
 ```php
